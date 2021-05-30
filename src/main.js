@@ -5,19 +5,11 @@ import VueAxios from 'vue-axios'
 import axios from 'axios'
 Vue.use(VueAxios, axios)
 
-import vueCustomElement from 'vue-custom-element';
-Vue.use(vueCustomElement);
-
-// Configure Vue to ignore the element name when defined outside of Vue.
-Vue.config.ignoredElements = [
-  'random-users'
-];
-
-import RandomUsers from './components/RandomUsers.vue';
-Vue.customElement('random-users', RandomUsers);
-
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render: h => h(App
+    //only for development testing
+    //, { props: { 'wait': 5000 } }
+  ),
 }).$mount('#app')

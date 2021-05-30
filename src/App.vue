@@ -1,17 +1,19 @@
 <template>
     <div id="app">
-        <!-- <random-users /> -->
+        <random-users :wait="wait" />
     </div>
 </template>
 
 <script>
-//import RandomUsers from './components/RandomUsers'
+import RandomUsers from './components/RandomUsers'
 export default {
     name: 'App',
 
     components: {
-        // RandomUsers
-    }
+        RandomUsers
+    },
+
+    props: ['wait']
 }
 </script>
 

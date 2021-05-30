@@ -63,15 +63,8 @@ export default {
         }
     },
 
-    computed: {
-        waitToFecthRandomUsers () {
-            console.log(this.waitingTime)
-            return this.waitingTime
-        }
-    },
-
     created () {
-        console.log(this.waitToFecthRandomUsers)
+        console.log(this.wait)
         this.fetchRandomUsers()
     },
 

@@ -1,17 +1,12 @@
 <template>
-    <div id="app">
-        <RandomUsers />
-    </div>
+    <div id="app"></div>
 </template>
 
 <script>
-import RandomUsers from './components/RandomUsers.vue'
-
 export default {
     name: 'App',
 
     components: {
-        RandomUsers
     }
 }
 </script>

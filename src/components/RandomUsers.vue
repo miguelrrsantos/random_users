@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="random-users-wrapper">
         <h1>Random Users</h1>
         <div class="header">
             <p>
@@ -111,6 +111,12 @@ export default {
 </script>
 
 <style scoped>
+.random-users-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .header {
     display: flex;
     flex-direction: row;

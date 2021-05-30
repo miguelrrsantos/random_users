@@ -32,6 +32,7 @@
                 <label for="other">Both</label>
             </p>
             <button type="button" @click="fetchRandomUsers">Load Users</button>
+            <button type="button" @click="resetRandomUsers">Reset Table</button>
         </div>
         <div v-if="!error.status">
             <Grid
@@ -100,6 +101,10 @@ export default {
 
                 this.loading = false
             }, 2000)
+        },
+
+        resetRandomUsers () {
+            this.randomUsers = []
         }
     }
 }

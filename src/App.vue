@@ -6,8 +6,12 @@
 
 <script>
 import RandomUsers from './components/RandomUsers'
+import axios from 'axios'
+
 export default {
     name: 'App',
+
+    axios,
 
     components: {
         RandomUsers

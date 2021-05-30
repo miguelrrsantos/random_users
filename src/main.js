@@ -6,19 +6,15 @@ import axios from 'axios'
 Vue.use(VueAxios, axios)
 
 import vueCustomElement from 'vue-custom-element';
-
-import RandomUsers from './components/RandomUsers.vue';
+Vue.use(vueCustomElement);
 
 // Configure Vue to ignore the element name when defined outside of Vue.
 Vue.config.ignoredElements = [
   'random-users'
 ];
 
-// Enable the plugin
-Vue.use(vueCustomElement);
-
-// Register your component
-Vue.customElement('random-users', RandomUsers, {});
+import RandomUsers from './components/RandomUsers.vue';
+Vue.customElement('random-users', RandomUsers);
 
 Vue.config.productionTip = false
 

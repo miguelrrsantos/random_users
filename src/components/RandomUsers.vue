@@ -56,7 +56,22 @@ export default {
         Grid
     },
 
+    props: {
+        wait: {
+            type: Number,
+            default: 2000
+        }
+    },
+
+    computed: {
+        waitToFecthRandomUsers () {
+            console.log(this.waitingTime)
+            return this.waitingTime
+        }
+    },
+
     created () {
+        console.log(this.waitToFecthRandomUsers)
         this.fetchRandomUsers()
     },
 
@@ -100,7 +115,7 @@ export default {
                 }
 
                 this.loading = false
-            }, 2000)
+            }, this.wait)
         },
 
         resetRandomUsers () {

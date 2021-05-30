@@ -1,12 +1,16 @@
 <template>
-    <div id="app"></div>
+    <div id="app">
+        <!-- <random-users /> -->
+    </div>
 </template>
 
 <script>
+//import RandomUsers from './components/RandomUsers'
 export default {
     name: 'App',
 
     components: {
+        // RandomUsers
     }
 }
 </script>

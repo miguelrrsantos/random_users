@@ -1,5 +1,5 @@
 
-# Random User
+# Random Users
 
 ## Intro
 

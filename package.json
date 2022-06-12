@@ -1,11 +1,9 @@
 {
-    "name": "randomuser",
+    "name": "randomusers",
     "version": "0.1.0",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint",
         "build-ce": "vue-cli-service build --target wc --inline-vue --name random-users"
     },
     "dependencies": {

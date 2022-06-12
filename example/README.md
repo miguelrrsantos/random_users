@@ -31,3 +31,5 @@ The existing props are:
 
 2. wait has value of 5000 (5 seconds)
    `<random-users wait="5000"></random-users>`
+
+![image](https://user-images.githubusercontent.com/22508733/173244054-66756c68-6410-4cbe-bce2-c9fea8c8e2ab.png)

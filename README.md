@@ -65,6 +65,23 @@ To build the project, execute  the following command:
 ```
 > npm run build-ce
 ```
+
+## Dependencies
+
+- [axios](https://ghub.io/axios): Promise based HTTP client for the browser and node.js
+- [core-js](https://ghub.io/core-js): Standard library
+- [vue](https://ghub.io/vue): Reactive, component-oriented view layer for modern web interfaces.
+
+## Dev Dependencies
+
+- [@vue/cli-plugin-babel](https://ghub.io/@vue/cli-plugin-babel): babel plugin for vue-cli
+- [@vue/cli-plugin-eslint](https://ghub.io/@vue/cli-plugin-eslint): eslint plugin for vue-cli
+- [@vue/cli-service](https://ghub.io/@vue/cli-service): local service for vue-cli projects
+- [babel-eslint](https://ghub.io/babel-eslint): Custom parser for ESLint
+- [eslint](https://ghub.io/eslint): An AST-based pattern checker for JavaScript.
+- [eslint-plugin-vue](https://ghub.io/eslint-plugin-vue): Official ESLint plugin for Vue.js
+
+
 ## Example
 The folder `` example`` has the custom component already compiled and ready to test.
 
@@ -91,18 +108,4 @@ The existing props are:
 2. wait has value of 5000 (5 seconds)
    `<random-users wait="5000"></random-users>`
 
-## Dependencies
-
-- [axios](https://ghub.io/axios): Promise based HTTP client for the browser and node.js
-- [core-js](https://ghub.io/core-js): Standard library
-- [vue](https://ghub.io/vue): Reactive, component-oriented view layer for modern web interfaces.
-
-## Dev Dependencies
-
-
-- [@vue/cli-plugin-babel](https://ghub.io/@vue/cli-plugin-babel): babel plugin for vue-cli
-- [@vue/cli-plugin-eslint](https://ghub.io/@vue/cli-plugin-eslint): eslint plugin for vue-cli
-- [@vue/cli-service](https://ghub.io/@vue/cli-service): local service for vue-cli projects
-- [babel-eslint](https://ghub.io/babel-eslint): Custom parser for ESLint
-- [eslint](https://ghub.io/eslint): An AST-based pattern checker for JavaScript.
-- [eslint-plugin-vue](https://ghub.io/eslint-plugin-vue): Official ESLint plugin for Vue.js
+![image](https://user-images.githubusercontent.com/22508733/173244054-66756c68-6410-4cbe-bce2-c9fea8c8e2ab.png)   

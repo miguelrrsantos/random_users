@@ -50,7 +50,7 @@ The `package.json` file implements commands to run the code under the key `"scri
 To run the project, execute  the following command:
 
 ```
-> npm run dev
+> npm run serve
 ```
 ## Project build
 
